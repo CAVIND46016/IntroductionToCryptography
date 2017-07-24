@@ -1,6 +1,3 @@
-//Name: Cavin Dsouza
-//Email: dsouzac@indiana.edu
-
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.File;
