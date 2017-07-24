@@ -15,8 +15,8 @@ v)   When the result from step 4 is readable text, we guess the English word and
      
 The plaintexts deciphered by the process are:
 
-**plaintext1:**
+**plaintext1:**<br>
 Physalis acutifolia is a species of flowering plant in the nightshade family known by the common names sharpleaf groundcherry and Wright groundcherry. It is native to the southwestern United States from California to Texas, and northern Mexico, where it can be found in many types of habitat, includi
 
-**plaintext2:**
+**plaintext2:**<br>
 It is a small, unnamed headland, some 2.5 km east of Nelly Point, which has been referred to unofficially as Chinstrap Camp. The site has been identified as an Important Bird Area (IBA) by BirdLife International because it supports a large breeding colony of about 24,000 pairs of Chinstrap Penguins.
