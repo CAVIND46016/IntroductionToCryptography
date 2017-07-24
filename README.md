@@ -6,12 +6,12 @@ Reference: http://travisdazell.blogspot.com/2012/11/many-time-pad-attack-crib-dr
 
 Follow the steps below:
 
-i)   Guess a word that might appear in one of the messages <br>
-ii)  Encode the word from step 1 to a hex string
-iii) XOR the two cipher-text messages
-iv)  XOR the hex string from step 2 at each position of the XOR of the two cipher-texts (from step 3)
-v)   When the result from step 4 is readable text, we guess the English word and expand our crib search.
-     If the result is not readable text, we try an XOR of the crib word at the next position.
+i)   Guess a word that might appear in one of the messages<br>
+ii)  Encode the word from step 1 to a hex string<br>
+iii) XOR the two cipher-text messages<br>
+iv)  XOR the hex string from step 2 at each position of the XOR of the two cipher-texts (from step 3)<br>
+v)   When the result from step 4 is readable text, we guess the English word and expand our crib search.<br>
+     If the result is not readable text, we try an XOR of the crib word at the next position.<br>
      
 The plaintexts deciphered by the process are:
 
