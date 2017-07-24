@@ -6,7 +6,7 @@ Reference: http://travisdazell.blogspot.com/2012/11/many-time-pad-attack-crib-dr
 
 Follow the steps below:
 
-i)   Guess a word that might appear in one of the messages
+i)   Guess a word that might appear in one of the messages <br>
 ii)  Encode the word from step 1 to a hex string
 iii) XOR the two cipher-text messages
 iv)  XOR the hex string from step 2 at each position of the XOR of the two cipher-texts (from step 3)
