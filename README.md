@@ -20,3 +20,12 @@ Physalis acutifolia is a species of flowering plant in the nightshade family kno
 
 **plaintext2:**<br>
 It is a small, unnamed headland, some 2.5 km east of Nelly Point, which has been referred to unofficially as Chinstrap Camp. The site has been identified as an Important Bird Area (IBA) by BirdLife International because it supports a large breeding colony of about 24,000 pairs of Chinstrap Penguins.
+
+## CTR ciphertext decryption:
+**ciphertext properties**<br>
+'ctr-ciphertext' file is encrypted using the 128-bit AES block cipher in CTR mode with a random 128-bit key. The first block (16 bytes) of the ciphertext is the random IV.
+
+**server(oracle) properties**<br>
+The server at burrow.soic.indiana.edu:33336 exhibits the following behaviour:<br>
+given a CTR mode encrypted ciphertext it decrypts the ciphertext and checks the padding (that is, it inspects the last byte of the resulting plaintext to determine *d−1*, and then it checks that each of the preceding *d−1* bytes are equal to *d−1*). If the padding is invalid, it returns 0; otherwise, it returns1.
+
